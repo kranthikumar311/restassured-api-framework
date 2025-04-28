@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-28T01:54:34 GMT-06:00" name="RestAssured API Test Suite" finished-at="2025-04-28T01:54:35 GMT-06:00" duration-ms="1602">
+    <groups>
+    </groups>
+    <test started-at="2025-04-28T01:54:34 GMT-06:00" name="API Tests" finished-at="2025-04-28T01:54:35 GMT-06:00" duration-ms="1602">
+      <class name="tests.UsersApiTest">
+        <test-method signature="getPublicAPI()[pri:0, instance:tests.UsersApiTest@f0da945]" started-at="2025-04-28T01:54:34 GMT-06:00" name="getPublicAPI" finished-at="2025-04-28T01:54:35 GMT-06:00" duration-ms="1540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPublicAPI -->
+      </class> <!-- tests.UsersApiTest -->
+    </test> <!-- API Tests -->
+  </suite> <!-- RestAssured API Test Suite -->
+</testng-results>
