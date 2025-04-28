@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="2.272" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="4.796" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\KRANTHI KUMAR\AppData\Local\Temp\surefire11911650615875682134\surefirebooter-20250428110344726_3.jar C:\Users\KRANTHI KUMAR\AppData\Local\Temp\surefire11911650615875682134 2025-04-28T11-03-44_365-jvmRun1 surefire-20250428110344726_1tmp surefire_0-20250428110344726_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\KRANTHI KUMAR\AppData\Local\Temp\surefire4358061414062705423\surefirebooter-20250428121753797_3.jar C:\Users\KRANTHI KUMAR\AppData\Local\Temp\surefire4358061414062705423 2025-04-28T12-17-53_289-jvmRun1 surefire-20250428121753797_1tmp surefire_0-20250428121753797_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Test_Automation\restassured_api_framework\target\test-classes;C:\Test_Automation\restassured_api_framework\target\classes;C:\Users\KRANTHI KUMAR\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\KRANTHI KUMAR\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\KRANTHI KUMAR\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\KRANTHI KUMAR\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\KRANTHI KUMAR\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\KRANTHI KUMAR\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\KRANTHI KUMAR\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\KRANTHI KUMAR\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\KRANTHI KUMAR\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\KRANTHI KUMAR\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\KRANTHI KUMAR\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\KRANTHI KUMAR\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\KRANTHI KUMAR\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\KRANTHI KUMAR\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\KRANTHI KUMAR\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\KRANTHI KUMAR\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\KRANTHI KUMAR\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\KRANTHI KUMAR\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\KRANTHI KUMAR\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\KRANTHI KUMAR\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\KRANTHI KUMAR\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\KRANTHI KUMAR\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\KRANTHI KUMAR\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
     <property name="allure.results.directory" value="target/allure-results"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\KRANTHI KUMAR\AppData\Local\Temp\surefire11911650615875682134\surefirebooter-20250428110344726_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\KRANTHI KUMAR\AppData\Local\Temp\surefire4358061414062705423\surefirebooter-20250428121753797_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
@@ -59,12 +59,26 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="getPublicAPI" classname="tests.UsersApiTest" time="1.612">
-    <system-out><![CDATA[Status code: 200
+  <testcase name="testCreatePost" classname="tests.PostsApiTest" time="2.647">
+    <system-out><![CDATA[Response Body: {
+  "title": "foo",
+  "body": "bar",
+  "userId": 1,
+  "id": 101
+}
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
+  </testcase>
+  <testcase name="testGetSinglePost" classname="tests.PostsApiTest" time="0.506">
+    <system-out><![CDATA[Response Body: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+]]></system-out>
   </testcase>
 </testsuite>
