@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-28T10:43:35 GMT-06:00" name="RestAssured API Test Suite" finished-at="2025-04-28T10:43:37 GMT-06:00" duration-ms="2111">
+  <suite started-at="2025-04-28T11:03:45 GMT-06:00" name="RestAssured API Test Suite" finished-at="2025-04-28T11:03:47 GMT-06:00" duration-ms="1633">
     <groups>
     </groups>
-    <test started-at="2025-04-28T10:43:35 GMT-06:00" name="API Tests" finished-at="2025-04-28T10:43:37 GMT-06:00" duration-ms="2111">
+    <test started-at="2025-04-28T11:03:45 GMT-06:00" name="API Tests" finished-at="2025-04-28T11:03:47 GMT-06:00" duration-ms="1633">
       <class name="tests.UsersApiTest">
-        <test-method signature="getPublicAPI()[pri:0, instance:tests.UsersApiTest@194bcebf]" started-at="2025-04-28T10:43:35 GMT-06:00" name="getPublicAPI" finished-at="2025-04-28T10:43:37 GMT-06:00" duration-ms="2036" status="PASS">
+        <test-method signature="getPublicAPI()[pri:0, instance:tests.UsersApiTest@194bcebf]" started-at="2025-04-28T11:03:45 GMT-06:00" name="getPublicAPI" finished-at="2025-04-28T11:03:47 GMT-06:00" duration-ms="1566" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPublicAPI -->

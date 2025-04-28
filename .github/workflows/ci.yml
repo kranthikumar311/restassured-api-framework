@@ -1,27 +1,27 @@
-# This file tells GitHub how to build and test your project
-
 name: REST API Automation CI
 
 on:
   push:
-    branches: [ main ]   # When you push to main branch
+    branches: [ main ]
   pull_request:
-    branches: [ main ]   # When you create a pull request
+    branches: [ main ]
 
 jobs:
   build:
-
-    runs-on: ubuntu-latest   # GitHub will run on a Linux server
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout Code
       uses: actions/checkout@v4
 
-    - name: Set up Java
+    - name: Set up Java 17
       uses: actions/setup-java@v4
       with:
         distribution: 'temurin'
-        java-version: '11'
+        java-version: '17'
+
+    - name: Verify Java Version
+      run: java -version
 
     - name: Build with Maven and Run Tests
       run: mvn clean test
