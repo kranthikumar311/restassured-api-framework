@@ -20,8 +20,21 @@ jobs:
         distribution: 'temurin'
         java-version: '17'
 
-    - name: Verify Java Version
-      run: java -version
+    - name: Install Allure CLI
+      run: |
+        sudo apt-add-repository ppa:qameta/allure
+        sudo apt-get update
+        sudo apt-get install allure
 
     - name: Build with Maven and Run Tests
       run: mvn clean test
+
+    - name: Generate Allure Report
+      run: |
+        allure generate target/allure-results --clean -o target/allure-report || true
+
+    - name: Upload Allure Report Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: allure-report
+        path: target/allure-report
