@@ -8,30 +8,37 @@ public class ConfigManager {
 
     private static final Properties properties = new Properties();
 
-    static {
+    static 
+    {
         try (InputStream input = ConfigManager.class.getClassLoader()
-                .getResourceAsStream("config.properties")) {
+                .getResourceAsStream("config.properties"))
+        {
 
-            if (input == null) {
+            if (input == null) 
+            {
                 throw new RuntimeException("config.properties not found in src/test/resources/");
             }
             properties.load(input);
 
-        } catch (IOException e) {
+        } 
+        catch (IOException e) {
             throw new RuntimeException("Failed to load config.properties", e);
         }
     }
 
-    public static String getEnvironment() {
+    public static String getEnvironment() 
+    {
         return properties.getProperty("environment", "dev");
     }
 
-    public static String getBaseURI() {
+    public static String getBaseURI()
+    {
         String env = getEnvironment();
         return properties.getProperty(env + ".baseURI");
     }
 
-    public static String getProperty(String key) {
+    public static String getProperty(String key) 
+    {
         return properties.getProperty(key);
     }
 }

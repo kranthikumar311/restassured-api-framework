@@ -9,114 +9,22 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">API Test Suite</th></tr>
-<tr><td><a href="#t0">Posts API Tests</a></td><td class="num">0</td><td class="num attn">13</td><td class="num">0</td><td class="num">0</td><td class="num">163</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Posts API Tests</a></td><td class="num">13</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">3,626</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">API Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Posts API Tests &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">tests.PostsApiTest</td><td><a href="#m0">baseSetup</a></td><td rowspan="1">1770963574441</td><td rowspan="1">11</td></tr><tr class="failedodd"><td rowspan="1">tests.PostsDataDrivenTest</td><td><a href="#m1">baseSetup</a></td><td rowspan="1">1770963574563</td><td rowspan="1">1</td></tr><tr><th colspan="4">Posts API Tests &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="7">tests.PostsApiTest</td><td><a href="#m2">testCreatePost</a></td><td rowspan="1">1770963574536</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">testDeletePost</a></td><td rowspan="1">1770963574542</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m4">testGetAllPosts</a></td><td rowspan="1">1770963574546</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m5">testGetNonExistentPost</a></td><td rowspan="1">1770963574549</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m6">testGetSinglePost</a></td><td rowspan="1">1770963574553</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m7">testUpdatePostWithPatch</a></td><td rowspan="1">1770963574556</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m8">testUpdatePostWithPut</a></td><td rowspan="1">1770963574560</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="6">tests.PostsDataDrivenTest</td><td><a href="#m9">testCreateMultiplePosts</a></td><td rowspan="3">1770963574569</td><td rowspan="3">0</td></tr><tr class="skippedodd"><td><a href="#m10">testCreateMultiplePosts</a></td></tr><tr class="skippedodd"><td><a href="#m11">testCreateMultiplePosts</a></td></tr><tr class="skippedodd"><td><a href="#m12">testGetPostById</a></td><td rowspan="3">1770963574586</td><td rowspan="3">0</td></tr><tr class="skippedodd"><td><a href="#m13">testGetPostById</a></td></tr><tr class="skippedodd"><td><a href="#m14">testGetPostById</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">API Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Posts API Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">tests.PostsApiTest</td><td><a href="#m0">testCreatePost</a></td><td rowspan="1">1771008398353</td><td rowspan="1">1360</td></tr><tr class="passedeven"><td><a href="#m1">testDeletePost</a></td><td rowspan="1">1771008399751</td><td rowspan="1">178</td></tr><tr class="passedeven"><td><a href="#m2">testGetAllPosts</a></td><td rowspan="1">1771008399933</td><td rowspan="1">129</td></tr><tr class="passedeven"><td><a href="#m3">testGetNonExistentPost</a></td><td rowspan="1">1771008400064</td><td rowspan="1">107</td></tr><tr class="passedeven"><td><a href="#m4">testGetSinglePost</a></td><td rowspan="1">1771008400173</td><td rowspan="1">107</td></tr><tr class="passedeven"><td><a href="#m5">testUpdatePostWithPatch</a></td><td rowspan="1">1771008400282</td><td rowspan="1">188</td></tr><tr class="passedeven"><td><a href="#m6">testUpdatePostWithPut</a></td><td rowspan="1">1771008400471</td><td rowspan="1">313</td></tr><tr class="passedodd"><td rowspan="6">tests.PostsDataDrivenTest</td><td><a href="#m7">testCreateMultiplePosts</a></td><td rowspan="3">1771008400975</td><td rowspan="3">172</td></tr><tr class="passedodd"><td><a href="#m8">testCreateMultiplePosts</a></td></tr><tr class="passedodd"><td><a href="#m9">testCreateMultiplePosts</a></td></tr><tr class="passedodd"><td><a href="#m10">testGetPostById</a></td><td rowspan="3">1771008401429</td><td rowspan="3">116</td></tr><tr class="passedodd"><td><a href="#m11">testGetPostById</a></td></tr><tr class="passedodd"><td><a href="#m12">testGetPostById</a></td></tr></tbody>
 </table>
-<h2>Posts API Tests</h2><h3 id="m0">tests.PostsApiTest#baseSetup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ExceptionInInitializerError
-	at base.BaseTest.baseSetup(BaseTest.java:21)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-Caused by: java.lang.RuntimeException: config.properties not found in src/test/resources/
-	at config.ConfigManager.&lt;clinit&gt;(ConfigManager.java:16)
-	... 29 more
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">tests.PostsDataDrivenTest#baseSetup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class config.ConfigManager
-	at base.BaseTest.baseSetup(BaseTest.java:21)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: config.properties not found in src/test/resources/ [in thread &quot;main&quot;]
-	at config.ConfigManager.&lt;clinit&gt;(ConfigManager.java:16)
-	... 29 more
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">tests.PostsApiTest#testCreatePost</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ExceptionInInitializerError
-	at base.BaseTest.baseSetup(BaseTest.java:21)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-Caused by: java.lang.RuntimeException: config.properties not found in src/test/resources/
-	at config.ConfigManager.&lt;clinit&gt;(ConfigManager.java:16)
-	... 29 more
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">tests.PostsApiTest#testDeletePost</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ExceptionInInitializerError
-	at base.BaseTest.baseSetup(BaseTest.java:21)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-Caused by: java.lang.RuntimeException: config.properties not found in src/test/resources/
-	at config.ConfigManager.&lt;clinit&gt;(ConfigManager.java:16)
-	... 29 more
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">tests.PostsApiTest#testGetAllPosts</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ExceptionInInitializerError
-	at base.BaseTest.baseSetup(BaseTest.java:21)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-Caused by: java.lang.RuntimeException: config.properties not found in src/test/resources/
-	at config.ConfigManager.&lt;clinit&gt;(ConfigManager.java:16)
-	... 29 more
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">tests.PostsApiTest#testGetNonExistentPost</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ExceptionInInitializerError
-	at base.BaseTest.baseSetup(BaseTest.java:21)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-Caused by: java.lang.RuntimeException: config.properties not found in src/test/resources/
-	at config.ConfigManager.&lt;clinit&gt;(ConfigManager.java:16)
-	... 29 more
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">tests.PostsApiTest#testGetSinglePost</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ExceptionInInitializerError
-	at base.BaseTest.baseSetup(BaseTest.java:21)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-Caused by: java.lang.RuntimeException: config.properties not found in src/test/resources/
-	at config.ConfigManager.&lt;clinit&gt;(ConfigManager.java:16)
-	... 29 more
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">tests.PostsApiTest#testUpdatePostWithPatch</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ExceptionInInitializerError
-	at base.BaseTest.baseSetup(BaseTest.java:21)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-Caused by: java.lang.RuntimeException: config.properties not found in src/test/resources/
-	at config.ConfigManager.&lt;clinit&gt;(ConfigManager.java:16)
-	... 29 more
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">tests.PostsApiTest#testUpdatePostWithPut</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ExceptionInInitializerError
-	at base.BaseTest.baseSetup(BaseTest.java:21)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-Caused by: java.lang.RuntimeException: config.properties not found in src/test/resources/
-	at config.ConfigManager.&lt;clinit&gt;(ConfigManager.java:16)
-	... 29 more
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">tests.PostsDataDrivenTest#testCreateMultiplePosts</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>First Post</td><td>First body content</td><td>1</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class config.ConfigManager
-	at base.BaseTest.baseSetup(BaseTest.java:21)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: config.properties not found in src/test/resources/ [in thread &quot;main&quot;]
-	at config.ConfigManager.&lt;clinit&gt;(ConfigManager.java:16)
-	... 29 more
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">tests.PostsDataDrivenTest#testCreateMultiplePosts</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Second Post</td><td>Second body content</td><td>2</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class config.ConfigManager
-	at base.BaseTest.baseSetup(BaseTest.java:21)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: config.properties not found in src/test/resources/ [in thread &quot;main&quot;]
-	at config.ConfigManager.&lt;clinit&gt;(ConfigManager.java:16)
-	... 29 more
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">tests.PostsDataDrivenTest#testCreateMultiplePosts</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Third Post</td><td>Third body content</td><td>3</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class config.ConfigManager
-	at base.BaseTest.baseSetup(BaseTest.java:21)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: config.properties not found in src/test/resources/ [in thread &quot;main&quot;]
-	at config.ConfigManager.&lt;clinit&gt;(ConfigManager.java:16)
-	... 29 more
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m12">tests.PostsDataDrivenTest#testGetPostById</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>3</td><td>ea molestias quasi exercitationem repellat qui ipsa sit aut</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class config.ConfigManager
-	at base.BaseTest.baseSetup(BaseTest.java:21)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: config.properties not found in src/test/resources/ [in thread &quot;main&quot;]
-	at config.ConfigManager.&lt;clinit&gt;(ConfigManager.java:16)
-	... 29 more
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m13">tests.PostsDataDrivenTest#testGetPostById</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>1</td><td>sunt aut facere repellat provident occaecati excepturi optio reprehenderit</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class config.ConfigManager
-	at base.BaseTest.baseSetup(BaseTest.java:21)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: config.properties not found in src/test/resources/ [in thread &quot;main&quot;]
-	at config.ConfigManager.&lt;clinit&gt;(ConfigManager.java:16)
-	... 29 more
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m14">tests.PostsDataDrivenTest#testGetPostById</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>2</td><td>qui est esse</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class config.ConfigManager
-	at base.BaseTest.baseSetup(BaseTest.java:21)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: config.properties not found in src/test/resources/ [in thread &quot;main&quot;]
-	at config.ConfigManager.&lt;clinit&gt;(ConfigManager.java:16)
-	... 29 more
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Posts API Tests</h2><h3 id="m0">tests.PostsApiTest#testCreatePost</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.PostsApiTest#testDeletePost</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.PostsApiTest#testGetAllPosts</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.PostsApiTest#testGetNonExistentPost</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.PostsApiTest#testGetSinglePost</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.PostsApiTest#testUpdatePostWithPatch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.PostsApiTest#testUpdatePostWithPut</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">tests.PostsDataDrivenTest#testCreateMultiplePosts</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Second Post</td><td>Second body content</td><td>2</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">tests.PostsDataDrivenTest#testCreateMultiplePosts</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Third Post</td><td>Third body content</td><td>3</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">tests.PostsDataDrivenTest#testCreateMultiplePosts</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>First Post</td><td>First body content</td><td>1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">tests.PostsDataDrivenTest#testGetPostById</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>2</td><td>qui est esse</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">tests.PostsDataDrivenTest#testGetPostById</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>3</td><td>ea molestias quasi exercitationem repellat qui ipsa sit aut</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">tests.PostsDataDrivenTest#testGetPostById</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>1</td><td>sunt aut facere repellat provident occaecati excepturi optio reprehenderit</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

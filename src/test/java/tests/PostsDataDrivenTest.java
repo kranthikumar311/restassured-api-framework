@@ -8,10 +8,12 @@ import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class PostsDataDrivenTest extends BaseTest {
+public class PostsDataDrivenTest extends BaseTest 
+{
 
     @DataProvider(name = "postIds")
-    public Object[][] postIdProvider() {
+    public Object[][] postIdProvider() 
+    {
         return new Object[][] {
                 {1, "sunt aut facere repellat provident occaecati excepturi optio reprehenderit"},
                 {2, "qui est esse"},
