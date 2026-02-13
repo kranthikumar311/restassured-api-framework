@@ -1,6 +1,6 @@
 
 # 🚀 Rest Assured API Automation Framework
-
+[![REST API Automation CI](https://github.com/kranthikumar311/restassured-api-framework/actions/workflows/ci.yml/badge.svg)](https://github.com/kranthikumar311/restassured-api-framework/actions/workflows/ci.yml)
 ![Java](https://img.shields.io/badge/Java-17-orange)
 ![RestAssured](https://img.shields.io/badge/RestAssured-5.3.0-green)
 ![Allure](https://img.shields.io/badge/Reporting-Allure-blue)
